@@ -153,7 +153,7 @@ public class Main {
 
         System.out.println("안녕하세요, 제 이름은" + name+ "입니다. 제 전공은 "+major
             +"이고, 그래서 제 예전 직업은"+ previousJob +"이었습니다. 현재는" + currentJob+"을 가지고 있습니다.");
-        // 이상의 코드에서 알수 있는 점은 변수 +  의 형태로도 작성이 가능하다는 점입니다
+        // 이상의 코드에서 알수 있는 점은 변수 + literal 의 형태로도 작성이 가능하다는 점입니다
 
         // 변서 선언
         String name10 = "이경민";

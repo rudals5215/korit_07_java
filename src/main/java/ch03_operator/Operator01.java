@@ -24,7 +24,7 @@ public class Operator01 {
          */
         // 일반 연산자
         /*
-             + : 더하기
+            + : 더하기
             - : 빼기
             * : 곱하기
             / : 나누기
@@ -73,6 +73,7 @@ public class Operator01 {
 
         int age = 10;
         System.out.println("제 나이는 " + age + "살 입니다.");
-        System.out.println("내년에는 " + age+1 + "살이 됩니다.");
+        System.out.println("내년에는 " + (age+1) + "살이 됩니다.");
+        //Operator02 생성
     }
 }
