@@ -40,7 +40,7 @@ public class Main {
         int koreanScore;                        // 변수 선언
         koreanScore = 99;                       // 초기화
 
-        String introduction = "안녕하세요, 저는 이번 국비과정을 하게 된 이경민 입니다";
+        String introduction = "안녕하세요, 저는 이번 국비과정을 하게 된 이경민 입니다.";
         System.out.println(introduction + ". 앞으로 잘 부탁드립니다.");
 
         /*
