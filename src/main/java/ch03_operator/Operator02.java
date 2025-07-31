@@ -31,6 +31,7 @@ public class Operator02 {
         boolean result7 = (flag1 || flag2) && flag2;
 
         boolean result8 = 10 % 3 == 0;
+        System.out.println(result8);
 
         // 그렇다면 나머지 연산의 결과값의 자료형은 무엇이어야만 하는가? -> int
 
