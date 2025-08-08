@@ -69,3 +69,5 @@ https://www.notion.so/246033eec06480b38496f5baa9fd373b
 더팀스 : https://www.theteams.kr/
 blind : www.teamblind.com
 링크드인(해외취업?) : www.linkedin.com
+
+깃허브 등록
