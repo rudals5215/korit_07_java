@@ -58,6 +58,7 @@ public class BmiCalc {
     // call3() 형태 메서드기는 한테 매개변수가 객체인 경우
     public void calcBmi(Person person){
 
+
     }
 
     public static void main(String[] args) {
