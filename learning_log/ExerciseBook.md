@@ -70,4 +70,7 @@ https://www.notion.so/246033eec06480b38496f5baa9fd373b
 blind : www.teamblind.com
 링크드인(해외취업?) : www.linkedin.com
 
-깃허브 등록
+깃허브 등록'
+
+컬렉션스 부분을 중점을 공부
+메서드 등 오픈북임
