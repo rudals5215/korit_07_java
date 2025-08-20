@@ -56,14 +56,14 @@ public class JSON2 {
         System.out.println(jsonProductMap1);
         String jsonProductMap2 = gsonBuilder.toJson(productMap1);
         System.out.println(jsonProductMap1);
-        
+
         /*
             이상의 두 사례에서 toJson()이라는 메서드는 argument로 Java Object 자체를 집어넣는 것도 가능하고,
             Map 으로 생성된 entry를 Json 형태로 바꾸는 것도 가능하다는 것을 확인할 수 있습니다.
             즉, toJson()은 overloading이 이루어녔다고 볼 수 있네요.
-            
+
             그리고 gson 객체에서도 toJson()이 있고 gsonBuilder 에서도 toJson()이 있다는 점 또한 주목할 부분입니다.
-            
+
             그 다음은 json -> Map / Java Object로 바꾸는 방식도 있습니다.
             근데 String data인 json을 "" 포함해서 쓰는게 너무 귀찮기 때문에
             user1과 productMap1을 json 으로 바꾼 데이터를 그대로 쓰도록 하겠습니다.
@@ -114,6 +114,6 @@ public class JSON2 {
         System.out.println(jsonObject1);
         JsonObject jsonObject2 = gsonBuilder.fromJson(jsonUser1, JsonObject.class);
         System.out.println(jsonObject2);
-        
+
     }
 }

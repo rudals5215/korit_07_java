@@ -1,5 +1,7 @@
 package ch23_lambda;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
@@ -28,5 +30,7 @@ public class LambdaExample {
         // 3. Consumer -> call2();
         Consumer<String> stringConsumer = (memo) -> System.out.println("메세지 : " + memo);
         stringConsumer.accept("오늘 전반적인 수업 내용은 여기서 끝납니다.");
+
+        List<String> fieldTripList = new ArrayList<>();
     }
 }
