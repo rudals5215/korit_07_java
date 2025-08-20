@@ -42,6 +42,7 @@ public class MapList {
         }
 
         // 강사님 풀이
+        List<Map<String, Object>> customers1 = new ArrayList<>();
         // 빈 Map을 2 개를 선언하고, 각각 value를 삽입
         Map<String, Object> customer3 = new HashMap<>();
         customer3.put("name","홍길동");
@@ -54,12 +55,12 @@ public class MapList {
         customer4.put("age",35);
 
         // List에 방금 만든 Map 자료를 더해야 합니다.
-        customers.add(customer3);
-        customers.add(customer4);
+        customers1.add(customer3);
+        customers1.add(customer4);
 
         System.out.println();
         // 출제 의도는 entrySet을 사용하는 거였습니다.
-        for (Map<String, Object> customer : customers){
+        for (Map<String, Object> customer : customers1){
             // List의 내부 Element로 들어왔습니다.
             // 그런데 Map의 내부에는 3쌍의 Entry가 있다고 할 수 있겠네요
             for (Map.Entry<String, Object> entry : customer.entrySet()){
